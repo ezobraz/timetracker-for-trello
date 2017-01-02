@@ -3,10 +3,10 @@ Quick time tracker power-up for Trello. Pure javascript, doesn't require any ser
 
 # Screenshots
 
-![Alt text](/screenshots/1.jpg?raw=true "screenshot")
-![Alt text](/screenshots/2.jpg?raw=true "screenshot")
-![Alt text](/screenshots/3.jpg?raw=true "screenshot")
-![Alt text](/screenshots/4.jpg?raw=true "screenshot")
+![Alt text](/screenshots/1.png?raw=true "screenshot")
+![Alt text](/screenshots/2.png?raw=true "screenshot")
+![Alt text](/screenshots/3.png?raw=true "screenshot")
+![Alt text](/screenshots/4.png?raw=true "screenshot")
 
 # Installation
 
