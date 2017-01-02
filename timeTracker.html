@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+    <script src="https://trello.com/power-ups/power-up.min.js"></script>
+  </head>
+  <body>
+    <style type="text/css">
+      button { width: 100%; margin: 0 0 6px 0; }
+      .timer {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+        height: 18px;
+      }
+      button.negate {
+        color: #fff;
+        background-color: #CF513D;
+        background: linear-gradient(to bottom, #CF513D 0%, #B04632 100%);
+        box-shadow: 0 2px 0 #833327;
+      }
+      button.negate:focus, button.negate:hover {
+        color: #fff;
+        background-color: #CF513D;
+        background: linear-gradient(to bottom, #CF513D 0%, #9d3e2c 100%);
+        box-shadow: 0 2px 0 #833327;
+      }
+    </style>
+    <div id="content">
+      <div class="timer" id="timePlace">00:00:00</div>
+      <button id="buttonStart" class="mod-primary">Start timer</button>
+      <button id="buttonStop" class="negate" style="display: none;">Stop timer</button>
+    </div>
+    <script src="./js/timeTracker.js"></script>
+  </body>
+</html>

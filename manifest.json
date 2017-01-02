@@ -1,0 +1,24 @@
+{
+  "name": "Time Tracker by ezobraz",
+  "description": "Quick time tracking Power-Up",
+  "details": "Quick time tracking Power-Up for Trello. Doesn't require any server-side part, works directly with Trello. Author: https://ezobraz.net",
+  "icon": {
+    "url": "./images/logo.png"
+  },
+  "author": "ezobraz",
+  "capabilities": [
+    "board-buttons",
+    "callback",
+    "card-buttons",
+    "card-badges",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}
