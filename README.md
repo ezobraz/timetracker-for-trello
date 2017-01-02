@@ -1,6 +1,15 @@
 # Timetracker for Trello
 Quick time tracker power-up for Trello. Pure javascript, doesn't require any server-side part.
 
+# Screenshots
+
+![Alt text](/screenshots/1.jpg?raw=true "screenshot")
+![Alt text](/screenshots/2.jpg?raw=true "screenshot")
+![Alt text](/screenshots/3.jpg?raw=true "screenshot")
+![Alt text](/screenshots/4.jpg?raw=true "screenshot")
+
+# Installation
+
 1. Just go to the [Trello Power-Up preview](https://trello.com/power-up-preview)
 2. Past this link https://ezobraz.github.io/timetracker-for-trello/manifest.json
 3. Click update.
