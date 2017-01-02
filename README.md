@@ -1,5 +1,5 @@
 # Timetracker for Trello
-Quick time tracker power-up for Trello. Pure javascript, doesn't require any server-side part.
+Quick time tracker power-up for trello. Pure javascript, doesn't require any server-side part. You CAN close your browser window, or shut down your computer, the timer will still work if you launched it.
 
 # Screenshots
 
