@@ -7,6 +7,7 @@ var timePlaceTotal = document.getElementById('timePlaceTotal');
 var moneyPlace = document.getElementById('moneyPlace');
 var localTimeSpent = document.getElementById('timeSpent');
 var localMoneyEarn = document.getElementById('moneyEarn');
+var buttonReset = document.getElementById('buttonReset');
 
 /* timer setup */
 
@@ -46,4 +47,15 @@ t.render(function(){
     t.sizeTo('#content')
     .done();
   })
+});
+
+
+buttonReset.addEventListener('click', function() {
+  var reset_confirm = confirm("Are you sure you want to Reset the total statistics data? Time spent on cards will still be available.");
+  
+  if(reset_confirm == true) {
+    timePlaceTotal.innerHTML = '00:00:00';
+    moneyPlace.innerHTML = '0$';
+    return t.set('board', 'private', 'time_total_board', null);
+  }
 });

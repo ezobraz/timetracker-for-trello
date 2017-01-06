@@ -7,7 +7,7 @@ var boardButtonCallback = function(t){
   return t.popup({
     title: "Time Statistics",
     url: './totalStatistics.html',
-    height: 66
+    height: 101
   });
 };
 
