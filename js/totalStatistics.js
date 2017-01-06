@@ -31,7 +31,7 @@ t.render(function(){
       
       var hourlyrate = 0;
 
-      if(boardTimeTotal != null) {
+      if(rate != null) {
         hourlyrate = rate;
       }
       
